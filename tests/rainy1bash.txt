@@ -1,0 +1,38 @@
+#Not logged in
+echo "
+debug
+verbose
+ls
+mkdir folder
+cd folder
+pwd
+cdup
+pwd
+rmdir folder
+ls
+put file.txt
+get file.txt file2.txt
+lls
+sunique
+put file2.txt
+sunique
+ls
+
+lcd ..
+lcd tests
+rhelp
+rhelp quit
+help
+help sunique
+debug
+verbose
+ascii
+image
+pwd
+rename file.txt renamed.txt
+ls
+debug
+verbose
+delete renamed.txt
+noop
+quit" | python3 ../ftp_client.py -h 127.0.0.1 -fp 2110

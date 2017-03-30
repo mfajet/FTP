@@ -1,0 +1,37 @@
+login
+danny
+danny456
+ls
+mkdir folder
+cd folder
+pwd
+cdup
+pwd
+rmdir folder
+ls
+put file.txt
+get file.txt file2.txt
+lls
+sunique
+put file2.txt
+sunique
+ls
+
+lcd ..
+lcd tests
+rhelp
+rhelp quit
+help
+help sunique
+debug
+verbose
+ascii
+image
+pwd
+rename file.txt renamed.txt
+ls
+debug
+verbose
+delete renamed.txt
+noop
+quit

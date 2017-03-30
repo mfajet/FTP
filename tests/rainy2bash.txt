@@ -1,0 +1,17 @@
+#Not logged in
+echo "
+verbose
+login dne dne
+login lazaro $#%^
+login jorge j12345
+login danny danny456
+cdup
+cd ..
+cd /
+ls
+get filedne.txt
+put filedne.txt
+commanddne
+help commanddne
+rhelp commanddne
+close" | python3 ../ftp_client.py -h 127.0.0.1 -fp 2110

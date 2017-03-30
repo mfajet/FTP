@@ -1,0 +1,33 @@
+ftp 127.0.0.1 2110
+debug
+verbose
+user grace
+pass grace123
+cd grace
+dir
+put file.txt
+delete file.txt
+image
+lcd ..
+lcd tests
+rhelp
+rhelp stor
+append file.txt
+append file.txt
+mkdir folderToDelete
+rmdir folderToDelete
+get file.txt fileCopy.txt
+type i
+binary
+ls
+pwd
+send fileCopy.txt
+usage
+cdup
+pwd
+cd grace
+?
+rename fileCopy.txt new_name.txt
+sunique
+put file.txt
+close

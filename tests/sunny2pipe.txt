@@ -1,0 +1,36 @@
+login grace grace123
+verbose
+debug
+binary
+pwd
+cd danny
+pwd
+cd ..
+pwd
+cd grace
+pwd
+put iloveortega.txt
+rename iloveortega.tx iwantana.txt
+get i_want_an_a.txt
+help get
+ls
+?
+mkdir A_Please
+cd A_Please
+pwd
+cd ..
+rename A_Please Not_An_F
+rmdir Not_An_F
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+append iloveortega.txt
+QUIT

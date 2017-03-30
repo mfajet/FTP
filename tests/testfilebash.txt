@@ -1,0 +1,6 @@
+echo "ls
+put file.txt
+get file.txt file2.txt
+ls
+del file.txt
+quit" | python3 ../ftp_client.py -h 127.0.0.1 -fp 2110 -u danny -p danny456 -A 
